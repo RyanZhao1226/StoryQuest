@@ -1,5 +1,7 @@
 # **StoryQuest - Interactive Storytelling Adventure**
 
+StoryQuest is an interactive storytelling game where players make choices that shape the narrative, leading to multiple branching paths and different endings. The game allows players to track their decisions, save progress with Firestore, and replay to explore various outcomes. Built with React Hooks and following a functional programming approach, StoryQuest is fully modular and easily access.
+
 ## Setting up
 
 In the project directory, you can run:
@@ -38,19 +40,19 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Links
 
-Business Requirement & Design
+**Business Requirement & Design**
 
 [https://docs.google.com/document/d/1zh3W3ZcqnZOJ_t-tE_fQkVuDakiG3bU3AqCGm9v2X3k/edit?usp=sharing]()
 
-Modules Diagram
+**Modules Diagram**
 
 [https://lucid.app/lucidchart/0b3de2d8-1ebf-47ab-ac12-2ff5906f0b67/edit?viewport_loc=-432%2C-76%2C2217%2C1092%2C0_0&amp;invitationId=inv_74cef52b-fd53-432a-b1df-80f6ee463989]()
 
-Mockups
+**Mockups**
 
 [https://www.figma.com/design/C2wUCrvW3aC10LOcClWjoK/Project2?node-id=0-1&amp;t=6GffqFLwBUzs66Sd-1]()
 
-Video
+**Video**
 
 TBD
 
