@@ -58,6 +58,6 @@ TBD
 
 ## Acknowledgment
 
-Use of AI
+Usage of AI
 
 [https://docs.google.com/document/d/1zh3W3ZcqnZOJ_t-tE_fQkVuDakiG3bU3AqCGm9v2X3k/edit?tab=t.0#heading=h.gjdgxs]()
