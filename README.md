@@ -95,6 +95,10 @@ storyquest/
 
 [https://youtu.be/FKMQc4VeGyg?si=qkTQcm3eHz_8L7lV]()
 
+**Deployed project**
+
+[https://storyquest-d29ee.web.app/]()
+
 ## Acknowledgment
 
 **Usage of AI**
