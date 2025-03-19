@@ -6,18 +6,17 @@ StoryQuest is an interactive storytelling game where players make choices that s
 
 In the project directory, you can run:
 
-`npm start`
+`npm run dev`
 
 Runs the app in the development mode.
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:5175](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.
 You may also see any lint errors in the console.
 
-`npm test`
+`npm run upload`
 
-Launches the test runner in the interactive watch mode.
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+You can run this order to upload your stories in uploadStories.js to firebase.
 
 `npm run build`
 
@@ -27,7 +26,13 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+If you want to deploy it on firebase hosting, you can run
+
+`firebase deploy`
+
+at the terminal of root folder.
+
+You will see a Hosting preview link and a live link (like https://your-project.web.app) in the terminal.
 
 ## Features
 
@@ -37,6 +42,40 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 * **Multiple Endings & Achievements** – Unlock unique story conclusions.
 * **React Hooks & Functional Programming** – Built with modern React principles for efficiency.
 * **Firestore Integration** – Persistent storage for user choices and game progress.
+
+## Project structure
+
+```
+storyquest/
+├── public/
+├── .firebase/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── GameScreen.jsx
+│   │   ├── StoryCRUD.jsx
+│   │   ├── StoryPath.jsx
+│   │   ├── StoryList.jsx
+│   │   ├── Tutorial.jsx
+│   ├── services/
+│   │   ├── firestore.js
+│   │   ├── uploadStories.js
+│   ├── App.css
+│   ├── App.jsx
+│   ├── firebaseConfig.js
+│   ├── index.css
+│   ├── main.jsx
+├── .firebaserc
+├── firebase.json
+├── index.html
+├── .gitignore                 # Manage git config
+├── eslint.config.js           # Manage eslint config
+├── LICENSE                    # Show the license
+├── package-lock.json
+├── package.json
+├── vite.config.js
+├── README.md
+```
 
 ## Links
 
@@ -54,10 +93,10 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 **Video**
 
-TBD
+[https://youtu.be/FKMQc4VeGyg?si=qkTQcm3eHz_8L7lV]()
 
 ## Acknowledgment
 
-Usage of AI
+**Usage of AI**
 
 [https://docs.google.com/document/d/1zh3W3ZcqnZOJ_t-tE_fQkVuDakiG3bU3AqCGm9v2X3k/edit?tab=t.0#heading=h.gjdgxs]()
