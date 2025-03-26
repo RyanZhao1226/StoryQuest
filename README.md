@@ -49,6 +49,9 @@ You will see a Hosting preview link and a live link (like https://your-project.w
 storyquest/
 ├── public/
 ├── .firebase/
+├── docs/
+│   ├── Functional Programming.md
+│   ├── Project2.pdf
 ├── src/
 │   ├── assets/
 │   ├── components/
@@ -93,7 +96,12 @@ storyquest/
 
 **Video**
 
+Application demonstration：
+
 [https://youtu.be/FKMQc4VeGyg?si=qkTQcm3eHz_8L7lV]()
+
+FP Principles:
+https://youtu.be/00U9OnZSVC0
 
 **Deployed project**
 

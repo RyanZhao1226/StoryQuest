@@ -17,13 +17,15 @@ function StoryList({ onSelect, onManageStories }) {
     fetchData()
   }, [])
 
+  const filteredStories = stories.filter(story => story.endingsCount !== undefined)
+
   return (
     <div style={{ border: '1px solid #ccc', padding: 20, textAlign: 'center' }}>
       <h2>StoryQuest</h2>
       <p>Please choose your story</p>
 
       <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
-        {stories.map((story) => {
+        {filteredStories.map((story) => {
           const discoveredList =
             progress?.discoveredEndings?.[story.id] || []
           const discoveredCount = discoveredList.length

@@ -6,6 +6,16 @@ import {
   deleteStory
 } from '../services/firestore'
 
+
+function createNode(id, text, choices = []) {
+  return {
+    id,
+    text,
+    choices,
+    isEnding: choices.length === 0
+  }
+}
+
 /**
  * Props:
  *  - onCloseCRUD(): Called when clicking the "Back" button to switch back to the story list
@@ -39,7 +49,10 @@ function StoryCRUD({ onCloseCRUD }) {
 
   // Create or update a story
   async function handleSave() {
-    const parsedNodes = safeParseJSON(nodesText)
+    const parsedNodesRaw = safeParseJSON(nodesText)
+    const parsedNodes = parsedNodesRaw.map(node =>
+      createNode(node.id, node.text, node.choices)
+    )
     const storyData = {
       title,
       description,

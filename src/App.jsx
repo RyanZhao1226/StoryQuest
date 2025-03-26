@@ -188,6 +188,11 @@ function App() {
     await saveProgress(updatedProgress)
   }
 
+  const totalEndingsDiscovered = Object.values(progress?.discoveredEndings || {}).reduce(
+    (total, endingsArr) => total + endingsArr.length,
+    0
+  )
+
   // Render different views based on the view state
   if (view === 'manage') {
     return (
@@ -222,7 +227,7 @@ function App() {
     <div style={{ padding: 20 }}>
       <h1 style={{ textAlign: 'center' }}>StoryQuest</h1>
       {showTutorial && <Tutorial onClose={handleCloseTutorial} />}
-
+      <p style={{ textAlign: 'center' }}>Total Endings Discovered: {totalEndingsDiscovered}</p>
       <StoryList
         onSelect={handleSelectStory}
         onManageStories={handleManageStories}
