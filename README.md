@@ -84,31 +84,31 @@ storyquest/
 
 **Business Requirement & Design**
 
-[https://docs.google.com/document/d/1zh3W3ZcqnZOJ_t-tE_fQkVuDakiG3bU3AqCGm9v2X3k/edit?usp=sharing]()
+https://docs.google.com/document/d/1zh3W3ZcqnZOJ_t-tE_fQkVuDakiG3bU3AqCGm9v2X3k/edit?usp=sharing
 
-**Modules Diagram**
+**Modules Diagram** 
 
-[https://lucid.app/lucidchart/0b3de2d8-1ebf-47ab-ac12-2ff5906f0b67/edit?viewport_loc=-432%2C-76%2C2217%2C1092%2C0_0&amp;invitationId=inv_74cef52b-fd53-432a-b1df-80f6ee463989]()
+https://lucid.app/lucidchart/0b3de2d8-1ebf-47ab-ac12-2ff5906f0b67/edit?viewport_loc=-432%2C-76%2C2217%2C1092%2C0_0&amp;invitationId=inv_74cef52b-fd53-432a-b1df-80f6ee463989
 
-**Mockups**
+**Mockups** 
 
-[https://www.figma.com/design/C2wUCrvW3aC10LOcClWjoK/Project2?node-id=0-1&amp;t=6GffqFLwBUzs66Sd-1]()
+https://www.figma.com/design/C2wUCrvW3aC10LOcClWjoK/Project2?node-id=0-1&amp;t=6GffqFLwBUzs66Sd-1
 
 **Video**
 
-Application demonstration：
+Application demonstration:  
 
-[https://youtu.be/FKMQc4VeGyg?si=qkTQcm3eHz_8L7lV]()
+https://youtu.be/FKMQc4VeGyg?si=qkTQcm3eHz_8L7lV
 
-FP Principles:
+FP Principles:  
 https://youtu.be/00U9OnZSVC0
 
-**Deployed project**
+**Deployed project** 
 
-[https://storyquest-d29ee.web.app/]()
+https://storyquest-d29ee.web.app/
 
 ## Acknowledgment
 
-**Usage of AI**
+**Usage of AI** 
 
-[https://docs.google.com/document/d/1zh3W3ZcqnZOJ_t-tE_fQkVuDakiG3bU3AqCGm9v2X3k/edit?tab=t.0#heading=h.gjdgxs]()
+https://docs.google.com/document/d/1zh3W3ZcqnZOJ_t-tE_fQkVuDakiG3bU3AqCGm9v2X3k/edit?tab=t.0#heading=h.gjdgxs
